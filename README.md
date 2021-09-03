@@ -12,6 +12,7 @@ const socket = io.connect(API_URL, {
 });
 
 socket.emit('subscribe', 'mynotifications');
+socket.emit('subscribe', 'notification');
 
 socket.on("create", async (data) => {
     //do something
