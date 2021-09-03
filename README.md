@@ -1,7 +1,7 @@
 # Strapi application
 
 A quick description of your strapi application
-
+```
 const io = require("socket.io-client");
 const API_URL = "http://localhost:1337/";
 const token = "JWT HERE";
@@ -33,3 +33,4 @@ socket.on("got_notification", (data) => {
     console.log("SAAD");
     console.log(data);
 });
+```
